@@ -1,0 +1,487 @@
+%  A simple AAU report template.
+%  2015-05-08 v. 1.2.0
+%  Copyright 2010-2015 by Jesper Kjær Nielsen <jkn@es.aau.dk>
+%
+%  This is free software: you can redistribute it and/or modify
+%  it under the terms of the GNU General Public License as published by
+%  the Free Software Foundation, either version 3 of the License, or
+%  (at your option) any later version.
+%
+%  This is distributed in the hope that it will be useful,
+%  but WITHOUT ANY WARRANTY; without even the implied warranty of
+%  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+%  GNU General Public License for more details.
+%
+%  You can find the GNU General Public License at <http://www.gnu.org/licenses/>.
+%
+\documentclass[11pt,a4paper,openright]{report}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Language, Encoding and Fonts
+% http://en.wikibooks.org/wiki/LaTeX/Internationalization
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Select encoding of your inputs. Depends on
+% your operating system and its default input
+% encoding. Typically, you should use
+%   Linux  : utf8 (most modern Linux distributions)
+%            latin1 
+%   Windows: ansinew
+%            latin1 (works in most cases)
+%   Mac    : applemac
+% Notice that you can manually change the input
+% encoding of your files by selecting "save as"
+% an select the desired input encoding. 
+\usepackage[utf8]{inputenc}
+% Make latex understand and use the typographic
+% rules of the language used in the document.
+\usepackage[english, danish]{babel}
+% Use the palatino font
+\usepackage[sc]{mathpazo}
+\linespread{1.05}         % Palatino needs more leading (space between lines)
+% Choose the font encoding
+\usepackage[T1]{fontenc}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Graphics and Tables
+% http://en.wikibooks.org/wiki/LaTeX/Importing_Graphics
+% http://en.wikibooks.org/wiki/LaTeX/Tables
+% http://en.wikibooks.org/wiki/LaTeX/Colors
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% load a colour package
+\usepackage[dvipsnames]{xcolor}
+\definecolor{aaublue}{RGB}{33,26,82}% dark blue
+% The standard graphics inclusion package
+\usepackage{graphicx}
+% Set up how figure and table captions are displayed
+\usepackage{float}
+\usepackage{caption}
+\captionsetup{%
+  font=footnotesize,% set font size to footnotesize
+  labelfont=bf % bold label (e.g., Figure 3.2) font
+}
+% Make the standard latex tables look so much better
+\usepackage{array,booktabs}
+% Enable the use of frames around, e.g., theorems
+% The framed package is used in the example environment
+\usepackage{framed}
+\usepackage{wrapfig}
+\usepackage{multirow}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Mathematics
+% http://en.wikibooks.org/wiki/LaTeX/Mathematics
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Defines new environments such as equation,
+% align and split 
+\usepackage{amsmath}
+% Adds new math symbols
+\usepackage{amssymb}
+% Use theorems in your document
+% The ntheorem package is also used for the example environment
+% When using thmmarks, amsmath must be an option as well. Otherwise \eqref doesn't work anymore.
+\usepackage[framed,amsmath,thmmarks]{ntheorem}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Page Layout
+% http://en.wikibooks.org/wiki/LaTeX/Page_Layout
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Change margins, papersize, etc of the document
+\usepackage[
+  inner=30mm,% left margin on an odd page
+  outer=30mm,% right margin on an odd page
+  ]{geometry}
+% Modify how \chapter, \section, etc. look
+% The titlesec package is very configureable
+\usepackage{titlesec}
+\titleformat{\chapter}[display]{\normalfont\huge\bfseries}{\ }{20pt}{\Huge}
+\titleformat*{\section}{\normalfont\Large\bfseries}
+\titleformat*{\subsection}{\normalfont\large\bfseries}
+\titleformat*{\subsubsection}{\normalfont\normalsize\bfseries}
+\titleformat*{\paragraph}{\normalfont\normalsize\bfseries}
+\titleformat*{\subparagraph}{\normalfont\normalsize\bfseries}
+
+% Clear empty pages between chapters
+\let\origdoublepage\cleardoublepage
+\newcommand{\clearemptydoublepage}{%
+  \clearpage
+  {\pagestyle{empty}\origdoublepage}%
+}
+\let\cleardoublepage\clearemptydoublepage
+
+% Change the headers and footers
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{} %delete everything
+\renewcommand{\headrulewidth}{0pt} %remove the horizontal line in the header
+\fancyhead[R]{\small\nouppercase\leftmark} %even page - chapter title
+\fancyhead[LO]{\small\nouppercase\rightmark} %uneven page - section title
+\fancyhead[RO]{\thepage} %page number on all pages
+\setlength{\headheight}{13.59999pt}
+% Do not stretch the content of a page. Instead,
+% insert white space at the bottom of the page
+\raggedbottom
+% Enable arithmetics with length. Useful when
+% typesetting the layout.
+\usepackage{calc}
+
+%Paragraph spacing
+\setlength{\parindent}{0em}
+\setlength{\parskip}{1em}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Misc
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Add bibliography and index to the table of
+% contents
+\usepackage[nottoc]{tocbibind}
+% Add the command \pageref{LastPage} which refers to the
+% page number of the last page
+\usepackage{lastpage}
+% Add todo notes in the margin of the document
+\usepackage[
+%  disable, %turn off todonotes
+  colorinlistoftodos, %enable a coloured square in the list of todos
+  textwidth=\marginparwidth, %set the width of the todonotes
+  textsize=scriptsize, %size of the text in the todonotes
+  ]{todonotes}
+% include pdf files
+\usepackage[final]{pdfpages}
+% code
+\usepackage{color}
+\usepackage{listings}
+\usepackage{tcolorbox}
+\usepackage{subfig}
+% coding colors defined %
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+ 
+\lstdefinestyle{JavaStyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,
+    frame=single,
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,
+    language=Java,
+    tabsize=4,
+    extendedchars=true,
+    literate={æ}{{\ae}}1 {Æ}{{\AE}}1 {ø}{{\o}}1 {Ø}{{\O}}1 {å}{{\r a}}1 {Å}{{\r A}}1,
+}
+
+\lstdefinelanguage{JavaScript}{
+%alsoletter=æøå,
+keywords={metode, liste, Dec, udskriv, hvis, tilføj, returner, hent, længde, somHeltal, Hel, imens, indsæt, ordbog, tekst, størrelse, nøgler},
+keywordstyle=\color{blue}\bfseries,
+ndkeywords={start},
+ndkeywordstyle=\color{darkgray}\bfseries,
+identifierstyle=\color{black},
+sensitive=false,
+comment=[l]{//},
+morecomment=[s]{/*}{*/},
+commentstyle=\color{purple}\ttfamily,
+stringstyle=\color{red}\ttfamily,
+morestring=[b]',
+morestring=[b]"
+}
+
+\lstdefinestyle{JavaScriptStyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,
+    frame=single,
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,
+    language=javascript,
+    tabsize=4,
+    extendedchars=true,
+    literate={æ}{{\ae}}1 {Æ}{{\AE}}1 {ø}{{\o}}1 {Ø}{{\O}}1 {å}{{\r a}}1 {Å}{{\r A}}1,
+}
+\lstset{style=JavaStyle}
+\renewcommand{\lstlistingname}{Code}% Listing -> Code
+\renewcommand{\lstlistlistingname}{List of \lstlistingname}% List of Listings -> List of Code
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Hyperlinks
+% http://en.wikibooks.org/wiki/LaTeX/Hyperlinks
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Enable hyperlinks and insert info into the pdf
+% file. Hypperref should be loaded as one of the 
+% last packages
+
+\usepackage{multirow}
+\usepackage{csquotes}
+\usepackage{chngpage}
+\usepackage{pdflscape}
+\usepackage{longtable}
+\usepackage{makecell}
+
+\usepackage[nobreak]{mdframed}
+
+\numberwithin{equation}{chapter}
+
+\usepackage{csvsimple}
+
+\usepackage{tikz}
+\usetikzlibrary{matrix}
+
+\titlespacing*{\chapter}{0pt}{0pt}{40pt}
+\usepackage{ulem}
+
+\mdfdefinestyle{drikstyle}{%
+linecolor=CornflowerBlue,linewidth=2pt,%
+frametitlerule=true,%
+frametitlebackgroundcolor=CornflowerBlue!20,
+innertopmargin=\topskip,
+}
+\mdtheorem[style=drikstyle]{drik}{Drik}
+
+\mdfdefinestyle{særligstyle}{%
+linecolor=SpringGreen,linewidth=2pt,%
+frametitlerule=true,%
+frametitlebackgroundcolor=SpringGreen!20,
+innertopmargin=\topskip,
+}
+\mdtheorem[style=særligstyle]{særlig}{Særlig}
+
+\mdfdefinestyle{giftstyle}{%
+linecolor=Bittersweet,linewidth=2pt,%
+frametitlerule=true,%
+frametitlebackgroundcolor=Bittersweet!20,
+innertopmargin=\topskip,
+}
+\mdtheorem[style=giftstyle]{gift}{Gift}
+
+\mdfdefinestyle{artefaktstyle}{%
+linecolor=BlueGreen,linewidth=2pt,%
+frametitlerule=true,%
+frametitlebackgroundcolor=BlueGreen!20,
+innertopmargin=\topskip,
+}
+\mdtheorem[style=artefaktstyle]{artefakt}{Artefakt}
+
+\mdfdefinestyle{runerustningstyle}{%
+linecolor=Emerald,linewidth=2pt,%
+frametitlerule=true,%
+frametitlebackgroundcolor=Emerald!20,
+innertopmargin=\topskip,
+}
+\mdtheorem[style=runerustningstyle]{runerustning}{Runerustning}
+
+\mdfdefinestyle{runevåbenstyle}{%
+linecolor=RoyalBlue,linewidth=2pt,%
+frametitlerule=true,%
+frametitlebackgroundcolor=RoyalBlue!20,
+innertopmargin=\topskip,
+}
+\mdtheorem[style=runevåbenstyle]{runevåben}{Runevåben}
+
+\mdfdefinestyle{runeskjoldstyle}{%
+linecolor=RoyalPurple,linewidth=2pt,%
+frametitlerule=true,%
+frametitlebackgroundcolor=RoyalPurple!20,
+innertopmargin=\topskip,
+}
+\mdtheorem[style=runeskjoldstyle]{runeskjold}{Runeskjold}
+
+\usepackage{tablefootnote}
+
+\mdfdefinestyle{Meditationstyle}{%
+linecolor=Emerald,linewidth=2pt,%
+frametitlerule=true,%
+frametitlebackgroundcolor=Emerald!20,
+innertopmargin=\topskip,
+}
+\mdtheorem[style=Meditationstyle]{meditation}{Meditation}
+\mdtheorem[style=Meditationstyle]{rite}{Rite}
+
+\mdfdefinestyle{Orleksarvstyle}{%
+linecolor=RedOrange,linewidth=2pt,%
+frametitlerule=true,%
+frametitlebackgroundcolor=RedOrange!20,
+innertopmargin=\topskip,
+}
+\mdtheorem[style=Orleksarvstyle]{orleks arv}{Orleks arv}
+\mdtheorem[style=Orleksarvstyle]{dHævn}{Dæmonisk hævn}
+
+\mdfdefinestyle{Ritualstyle}{%
+linecolor=Magenta,linewidth=2pt,%
+frametitlerule=true,%
+frametitlebackgroundcolor=Magenta!20,
+innertopmargin=\topskip,
+}
+\mdtheorem[style=Ritualstyle]{ritual}{Ritual}
+
+\mdfdefinestyle{Åndensgavestyle}{%
+linecolor=RoyalBlue,linewidth=2pt,%
+frametitlerule=true,%
+frametitlebackgroundcolor=RoyalBlue!20,
+innertopmargin=\topskip,
+}
+\mdtheorem[style=Åndensgavestyle]{åndens gave}{Åndernes gave}
+
+\mdtheorem[style=Meditationstyle]{nBeskyt}{Naturens Beskyttelse}
+
+\mdfdefinestyle{naturstyle}{%
+linecolor=Goldenrod,linewidth=2pt,%
+frametitlerule=true,%
+frametitlebackgroundcolor=Goldenrod!20,
+innertopmargin=\topskip,
+}
+\mdtheorem[style=naturstyle]{nly}{Naturens Ly}
+
+\mdtheorem[style=drikstyle]{nvit}{Naturens Vitalitet}
+
+\mdtheorem[style=særligstyle]{mkær}{Moder Naturs Kærlighed}
+
+\mdtheorem[style=giftstyle]{nhævn}{Naturens hævn}
+
+\mdtheorem[style=Åndensgavestyle]{nkaos}{Naturens Kaos}
+
+\mdtheorem[style=runeskjoldstyle]{nbesk}{Naturens Beskyttelse}
+
+\mdfdefinestyle{primærstyle}{%
+linecolor=Plum,linewidth=2pt,%
+frametitlerule=true,%
+frametitlebackgroundcolor=Plum!20,
+innertopmargin=\topskip,
+}
+\mdtheorem[style=primærstyle]{primærMagi}{Primær Magi}
+
+\mdfdefinestyle{Lærdstyle}{%
+linecolor=SkyBlue,linewidth=2pt,%
+frametitlerule=true,%
+frametitlebackgroundcolor=SkyBlue!20,
+innertopmargin=\topskip,
+}
+\mdtheorem[style=Lærdstyle]{lærdMagi}{Den Lærdes Vej}
+
+\mdfdefinestyle{ArkBanestyle}{%
+linecolor=SeaGreen,linewidth=2pt,%
+frametitlerule=true,%
+frametitlebackgroundcolor=SeaGreen!20,
+innertopmargin=\topskip,
+}
+\mdtheorem[style=ArkBanestyle]{arkBaneMagi}{Arkanaens Bane}
+
+\mdfdefinestyle{magiMesterstyle}{%
+linecolor=Orange,linewidth=2pt,%
+frametitlerule=true,%
+frametitlebackgroundcolor=Orange!20,
+innertopmargin=\topskip,
+}
+\mdtheorem[style=magiMesterstyle]{mesterMagi}{Magiens Mester}
+
+\mdfdefinestyle{sAritstyle}{%
+linecolor=Melon,linewidth=2pt,%
+frametitlerule=true,%
+frametitlebackgroundcolor=Melon!20,
+innertopmargin=\topskip,
+}
+\mdtheorem[style=sAritstyle]{sAritMagi}{Sfære Aritmetik}
+
+\usepackage[T1]{fontenc} %thanks's daleif
+\usepackage[utf8]{inputenc}
+\usepackage[english, danish]{babel}
+\newcommand{\tabitem}{~~\llap{\textbullet}~~}
+
+\mdfdefinestyle{racestyle}{%
+linecolor=PineGreen,linewidth=2pt,%
+frametitlerule=true,%
+frametitlebackgroundcolor=PineGreen!20,
+innertopmargin=\topskip,
+}
+\mdtheorem[style=sAritstyle]{race}{Race Detaljer}
+
+\mdfdefinestyle{sjælstyle}{%
+linecolor=Cyan,linewidth=2pt,%
+frametitlerule=true,%
+frametitlebackgroundcolor=Cyan!20,
+innertopmargin=\topskip,
+}
+\mdtheorem[style=sjælstyle]{sjæl}{Sælg din Sjæl}
+
+\mdfdefinestyle{Korruptionstyle}{%
+linecolor=PineGreen,linewidth=2pt,%
+frametitlerule=true,%
+frametitlebackgroundcolor=PineGreen!20,
+innertopmargin=\topskip,
+}
+\mdtheorem[style=Korruptionstyle]{korruption}{Korruption}
+
+\mdfdefinestyle{Faldenstyle}{%
+linecolor=Tan,linewidth=2pt,%
+frametitlerule=true,%
+frametitlebackgroundcolor=Tan!20,
+innertopmargin=\topskip,
+}
+\mdtheorem[style=Faldenstyle]{falden}{Falden Engel}
+
+\mdfdefinestyle{Vandstyle}{%
+linecolor=Aquamarine,linewidth=2pt,%
+frametitlerule=true,%
+frametitlebackgroundcolor=Aquamarine!20,
+innertopmargin=\topskip,
+}
+\mdtheorem[style=Vandstyle]{vand}{Vand}
+
+\mdfdefinestyle{Ildstyle}{%
+linecolor=BrickRed,linewidth=2pt,%
+frametitlerule=true,%
+frametitlebackgroundcolor=BrickRed!20,
+innertopmargin=\topskip,
+}
+\mdtheorem[style=Ildstyle]{ild}{Ild}
+
+\mdfdefinestyle{Jordstyle}{%
+linecolor=Sepia,linewidth=2pt,%
+frametitlerule=true,%
+frametitlebackgroundcolor=Sepia!20,
+innertopmargin=\topskip,
+}
+\mdtheorem[style=Jordstyle]{jord}{Jord}
+
+\mdfdefinestyle{Vindstyle}{%
+linecolor=Gray,linewidth=2pt,%
+frametitlerule=true,%
+frametitlebackgroundcolor=Gray!20,
+innertopmargin=\topskip,
+}
+\mdtheorem[style=Vindstyle]{vind}{Vind}
+
+\mdtheorem[style=naturstyle]{passiv}{Passiv}
+
+\mdtheorem[style=ArkBanestyle]{offensiv}{Offensiv}
+
+\mdtheorem[style=runevåbenstyle]{defensiv}{Defensiv}
+
+\mdtheorem[style=giftstyle]{kontrol}{Kontrol}
+
+\mdtheorem[style=særligstyle]{zombie}{Zombie}
+
+\mdtheorem[style=Orleksarvstyle]{nSjæl}{Sjæl}
+
+\mdtheorem[style=Åndensgavestyle]{sygdom}{Sygdomens Mørke}
+
+\mdtheorem[style=Ritualstyle]{død}{Død}
+
+\mdtheorem[style=Ritualstyle]{prof}{Profession}

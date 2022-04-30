@@ -1,0 +1,60 @@
+\input{setup/preamble.tex}% package inclusion and set up of the document
+\input{setup/hyphenations.tex}% 
+\input{setup/macros.tex}% my new macros
+\usepackage{xcolor,colortbl}
+\definecolor{Gray}{gray}{0.85}
+\newcolumntype{a}{>{\columncolor{Gray}}c}
+\newcolumntype{b}{>{\columncolor{white}}c}
+\definecolor{maroon}{cmyk}{0,0.87,0.68,0.32}
+\definecolor{bleudefrance}{rgb}{0.19, 0.55, 0.91}
+\definecolor{cerulean}{rgb}{0.0, 0.48, 0.65}
+\usepackage{hyperref}
+\hypersetup{%
+	%pdfpagelabels=true,%
+	plainpages=false,%
+	pdfauthor={Akastin},%
+	pdftitle={Tyv Regelsæt},%
+	pdfsubject={Regler},%
+	bookmarksnumbered=true,%
+	colorlinks=true,%
+	citecolor=black,%
+	filecolor=blue,%
+	linkcolor=black,% you should probably change this to black before printing
+	urlcolor=blue,%
+	pdfstartview=FitH,%
+	bookmarksopen=true
+}
+\usepackage{stmaryrd}
+
+\begin{document}
+\begin{titlepage}
+    \begin{center}
+        \includegraphics[width=0.95\textwidth]{setup/Pictures/A01.C01.01_Front_Billede.png}
+        
+        \vspace{0.5cm}
+        \LARGE
+        \textit{Regelsæt til}
+        
+        \vspace{4.5cm}
+        \Huge
+        \textbf{Tyv}\\
+        \vspace{4.5cm}
+        \large
+        \textit{Opdateret: \today}
+\end{center}
+\end{titlepage}
+
+\pagestyle{plain} %enable headers and footers again
+%mainmatter
+\pagenumbering{arabic} %use arabic page numbering in the mainmatter
+\renewcommand*\contentsname{Indholdsfortegnelse}
+\tableofcontents
+\input{mainstuff/Indledning.tex}
+\input{mainstuff/Niv1}
+\input{mainstuff/Niv2}
+\input{mainstuff/Niv3}
+\input{mainstuff/Niv4}
+\input{setup/GenerelleEvnerIngenMagiKampMedTohånds}
+\input{mainstuff/Drikke.tex}
+
+\end{document}
