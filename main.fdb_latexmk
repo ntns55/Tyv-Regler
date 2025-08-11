@@ -1,5 +1,8 @@
 # Fdb version 4
-["pdflatex"] 1754342913.45677 "c:/Users/niels/Documents/GitHub/Tyv-Regler/main.tex" "main.pdf" "main" 1754342916.65501 0
+["pdflatex"] 1754871378.56121 "c:/Users/niels/Documents/GitHub/Tyv-Regler/main.tex" "main.pdf" "main" 1754871381.58787 2
+  "../Evne-Ordbog/setup/hyphenations.tex" 1754339026 187 25dd9d5834155c431eb54cd73045ea9a ""
+  "../Evne-Ordbog/setup/macros.tex" 1754339026 3879 07a835151c43e390c8d73670b3a1cd8c ""
+  "../Evne-Ordbog/setup/preamble.tex" 1754339026 15210 d36b616f6747a330797007c3d3d76f55 ""
   "C:/Users/niels/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1754342902 91245 9ee8cb7f350b2696982aa139ccaecc55 ""
   "C:/Users/niels/AppData/Local/MiKTeX/fonts/tfm/public/stmaryrd/stmary10.tfm" 1754342904 848 f478e0761563bbc369eca609a1741348 ""
   "C:/Users/niels/AppData/Local/MiKTeX/fonts/tfm/public/stmaryrd/stmary5.tfm" 1754342909 848 e1bc58a31b9ed9c3729ffea165acfaac ""
@@ -234,11 +237,11 @@
   "C:/Users/niels/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
   "C:/Users/niels/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-abspage.sty" 1750428951 2269 2de6c7a5fd634dfef00a960544463a38 ""
   "C:/Users/niels/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-base.sty" 1750428951 20785 198a9cb2e04238d92c320d0d9edbd76a ""
-  "c:/Users/niels/Documents/GitHub/Tyv-Regler/main.tex" 1754342865 1748 c04e2d5722c92f9d25a971fb94a2a16c ""
-  "main.aux" 1754342916 6348 677554c69a6a960c53bd38b740b1be4c "pdflatex"
-  "main.out" 1754342916 6737 93250d7dc728e95c932329d976e96f1d "pdflatex"
-  "main.tex" 1754342865 1748 c04e2d5722c92f9d25a971fb94a2a16c ""
-  "main.toc" 1754342916 3121 3afece7fb0c8727de8254c3e643d28f5 "pdflatex"
+  "c:/Users/niels/Documents/GitHub/Tyv-Regler/main.tex" 1754871374 1795 7f63da75f47f1fda6f7dccd62cfe3953 ""
+  "main.aux" 1754871381 6344 ff4baaa02d1da058fe17c4bb3cbabba8 "pdflatex"
+  "main.out" 1754871381 6737 93250d7dc728e95c932329d976e96f1d "pdflatex"
+  "main.tex" 1754871374 1795 7f63da75f47f1fda6f7dccd62cfe3953 ""
+  "main.toc" 1754871381 3117 2097478dec4bcdef07264bf2e4ac813b "pdflatex"
   "mainstuff/AlkymiNiv1.tex" 1754339262 2271 46e75d1a8449628cc34eb00efb3f47d5 ""
   "mainstuff/AlkymiNiv2.tex" 1754339262 4506 ac3b425279568dd31701571c99f4ed67 ""
   "mainstuff/Drikke.tex" 1754339262 6664 7049a1288ae61d08413789053b07ed87 ""
@@ -272,9 +275,6 @@
   "setup/Evner/Urtesamler.tex" 1754339262 190 18e8e3042c306275596a9a9dd1951dc2 ""
   "setup/GenerelleEvnerIngenMagiKampMedTohånds.tex" 1754339262 1687 b292822f0ffa04362b43fe178732d71d ""
   "setup/Pictures/A01.C01.01_Front_Billede.png" 1754339262 6403955 f084c9143d1fcc3045f3c66faf856f1d ""
-  "setup/hyphenations.tex" 1754339262 187 25dd9d5834155c431eb54cd73045ea9a ""
-  "setup/macros.tex" 1754339262 3879 07a835151c43e390c8d73670b3a1cd8c ""
-  "setup/preamble.tex" 1754342854 15162 943e9a6a8c3db1496b81756c60cdb1c7 ""
   (generated)
   "main.aux"
   "main.log"

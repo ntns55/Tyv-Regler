@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.23)  4 AUG 2025 23:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.23)  11 AUG 2025 02:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -24,7 +24,19 @@ File: size11.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
 \abovecaptionskip=\skip49
 \belowcaptionskip=\skip50
 \bibindent=\dimen148
-) (setup/preamble.tex (C:\Users\niels\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+) (../Evne-Ordbog/setup/preamble.tex
+
+../Evne-Ordbog/setup/preamble.tex:17: LaTeX Error: Two \documentclass or \documentstyle commands.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 \documentclass[11pt,a4paper,openright]{
+                                            report}
+The document may only declare one class.
+
+(C:\Users\niels\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2024/02/08 v1.3d Input encoding file
 \inpenc@prehook=\toks17
 \inpenc@posthook=\toks18
@@ -920,7 +932,7 @@ Package: fontenc 2024/12/21 v2.1c Standard LaTeX package
 \c@død=\count427
 )
 \c@prof=\count428
- (setup/hyphenations.tex) (setup/macros.tex
+ (../Evne-Ordbog/setup/hyphenations.tex) (../Evne-Ordbog/setup/macros.tex
 \c@currexactr=\count429
 \c@endexactr=\count430
 \c@exa=\count431
@@ -931,7 +943,7 @@ Package: colortbl 2024/10/29 v1.0k Color table columns (DPC)
 \rownum=\count432
 )
 
-Package array Warning: Redefining primitive column b on input line 8.
+Package array Warning: Redefining primitive column b on input line 9.
 
 (C:\Users\niels\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
 Package: hyperref 2025-07-12 v7.01o Hypertext links for LaTeX
@@ -1014,10 +1026,10 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 )
 \Hy@SectionHShift=\skip165
 )
-Package hyperref Info: Option `plainpages' set `false' on input line 27.
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 27.
-Package hyperref Info: Option `colorlinks' set `true' on input line 27.
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 27.
+Package hyperref Info: Option `plainpages' set `false' on input line 28.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 28.
+Package hyperref Info: Option `colorlinks' set `true' on input line 28.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 28.
  (C:\Users\niels\AppData\Local\Programs\MiKTeX\tex/latex/stmaryrd\stmaryrd.sty
 Package: stmaryrd 1994/03/03 St Mary's Road symbol package
 \symstmry=\mathgroup7
@@ -1028,31 +1040,31 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'danish'.
- (main.aux
-Package babel Info: 'danish' activates 'danish' shorthands.
-(babel)             Reported  on input line 9.
-)
+
+No file main.aux.
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
- (C:\Users\niels\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+Package babel Info: 'danish' activates 'danish' shorthands.
+(babel)             Reported  on input line 31.
+(C:\Users\niels\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count445
 \scratchdimen=\dimen338
@@ -1117,76 +1129,38 @@ Package caption Info: End \AtBeginDocument code.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Package todonotes Warning: The length marginparwidth is less than 2cm and will most likely cause issues with the appearance of inserted todonotes. The issue can be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to loading the todonotes package. on input line 30.
+Package todonotes Warning: The length marginparwidth is less than 2cm and will most likely cause issues with the appearance of inserted todonotes. The issue can be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to loading the todonotes package. on input line 31.
 
 \c@lstlisting=\count451
-Package hyperref Info: Link coloring ON on input line 30.
-(main.out) (main.out)
+Package hyperref Info: Link coloring ON on input line 31.
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
-<setup/Pictures/A01.C01.01_Front_Billede.png, id=181, 10037.5pt x 2762.32pt>
+<setup/Pictures/A01.C01.01_Front_Billede.png, id=6, 10037.5pt x 2762.32pt>
 File: setup/Pictures/A01.C01.01_Front_Billede.png Graphic file (type png)
 <use setup/Pictures/A01.C01.01_Front_Billede.png>
-Package pdftex.def Info: setup/Pictures/A01.C01.01_Front_Billede.png  used on input line 33.
+Package pdftex.def Info: setup/Pictures/A01.C01.01_Front_Billede.png  used on input line 34.
 (pdftex.def)             Requested size: 405.45047pt x 111.56987pt.
 
 
 [1
 
-{C:/Users/niels/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/niels/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <./setup/Pictures/A01.C01.01_Front_Billede.png>] (main.toc
-LaTeX Font Info:    Trying to load font information for OT1+pplx on input line 4.
- (C:\Users\niels\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pplx.fd
-File: ot1pplx.fd 2004/09/06 font definitions for OT1/pplx.
-)
-LaTeX Font Info:    Trying to load font information for OML+zplm on input line 4.
- (C:\Users\niels\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omlzplm.fd
-File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
-)
-LaTeX Font Info:    Trying to load font information for OMS+zplm on input line 4.
- (C:\Users\niels\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omszplm.fd
-File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
-)
-LaTeX Font Info:    Trying to load font information for OMX+zplm on input line 4.
- (C:\Users\niels\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omxzplm.fd
-File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
-)
-LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 4.
- (C:\Users\niels\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1zplm.fd
-File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
-)
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 11.40997pt on input line 4.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 4.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 4.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 11.40997pt on input line 4.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 4.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 4.
-LaTeX Font Info:    Trying to load font information for U+stmry on input line 4.
- (C:\Users\niels\AppData\Local\Programs\MiKTeX\tex/latex/stmaryrd\ustmry.fd)
+{C:/Users/niels/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/niels/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <./setup/Pictures/A01.C01.01_Front_Billede.png>]
+No file main.toc.
+\tf@toc=\write6
+\openout6 = `main.toc'.
+
+(mainstuff/Indledning.tex
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.19 ...sline {chapter}{Niveau 4}{11}{chapter*.12}
-                                                  % [1
+l.2 \chapter
+            *{Indledning} [1
 
 
 ]
-
-[2])
-\tf@toc=\write6
-\openout6 = `main.toc'.
-
- (mainstuff/Indledning.tex
-
-[3]
 Underfull \hbox (badness 10000) in paragraph at lines 5--7
 
  []
@@ -1198,10 +1172,44 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--12
 
 ) (mainstuff/Niv1.tex
 
-[4
+[2
 
 
 ]
+LaTeX Font Info:    Trying to load font information for OT1+pplx on input line 6.
+ (C:\Users\niels\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pplx.fd
+File: ot1pplx.fd 2004/09/06 font definitions for OT1/pplx.
+)
+LaTeX Font Info:    Trying to load font information for OML+zplm on input line 6.
+ (C:\Users\niels\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omlzplm.fd
+File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
+)
+LaTeX Font Info:    Trying to load font information for OMS+zplm on input line 6.
+ (C:\Users\niels\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omszplm.fd
+File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
+)
+LaTeX Font Info:    Trying to load font information for OMX+zplm on input line 6.
+ (C:\Users\niels\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omxzplm.fd
+File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
+)
+LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 6.
+ (C:\Users\niels\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1zplm.fd
+File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
+)
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 11.40997pt on input line 6.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 8.33606pt on input line 6.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 6.25204pt on input line 6.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 11.40997pt on input line 6.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 8.33606pt on input line 6.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 6.25204pt on input line 6.
+LaTeX Font Info:    Trying to load font information for U+stmry on input line 6.
+ (C:\Users\niels\AppData\Local\Programs\MiKTeX\tex/latex/stmaryrd\ustmry.fd)
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 21.
@@ -1226,12 +1234,12 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 5.21004pt on input line 3.
 ) (mainstuff/Evner/Lommetyveri Niv. 1.tex)) (mainstuff/Niv2.tex
 
-[5
+[3
 
 
 ]
 
-[6]
+[4]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 21.
@@ -1253,7 +1261,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--28
 
 
 
-[7
+[5
 
 
 ] (mainstuff/Evner/Torturens Vidunder.tex)) (mainstuff/Niv3.tex
@@ -1263,7 +1271,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--1
 
 
 
-[8] (mainstuff/Evner/Påfør Gift.tex
+[6] (mainstuff/Evner/Påfør Gift.tex
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 2.
@@ -1285,12 +1293,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--1
 
 
 
-[9
+[7
 
 
 ]
 
-[10]
+[8]
 Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
@@ -1321,7 +1329,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
 
 
-[11
+[9
 
 
 ]
@@ -1336,21 +1344,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--29
 
 
 
-[12]) (mainstuff/AlkymiNiv2.tex
+[10]) (mainstuff/AlkymiNiv2.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
 
 
-[13]
+[11]
 Underfull \hbox (badness 10000) in paragraph at lines 36--40
 
  []
 
 
 
-[14]
+[12]
 Underfull \hbox (badness 10000) in paragraph at lines 50--54
 
  []
@@ -1367,7 +1375,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 72--76
 
 
 
-[15]
+[13]
 Underfull \hbox (badness 10000) in paragraph at lines 79--83
 
  []
@@ -1384,7 +1392,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 94--98
 
 
 
-[16])
+[14])
 Underfull \hbox (badness 10000) in paragraph at lines 41--43
 
  []
@@ -1410,7 +1418,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 58--60
 
 
 
-[17]
+[15]
 Underfull \hbox (badness 10000) in paragraph at lines 63--64
 
  []
@@ -1427,7 +1435,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 72--1
 
 
 
-[18] (setup/Evner/6SansNiv1.tex
+[16] (setup/Evner/6SansNiv1.tex
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 2.
@@ -1444,7 +1452,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--36
 
 (setup/Evner/Bonk.tex
 
-[19
+[17
 
 
 ])
@@ -1469,14 +1477,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--44
 
 (setup/Evner/Førstehjælp.tex
 
-[20]) (setup/Evner/Læse og skrive.tex)
+[18]) (setup/Evner/Læse og skrive.tex)
 Underfull \hbox (badness 10000) in paragraph at lines 3--48
 
  []
 
 (setup/Evner/Minearbejder.tex) (setup/Evner/Påfør Gift.tex) (setup/Evner/Slagsbror Niv 1.tex) (setup/Evner/Slagsbror Niv 2.tex
 
-[21]) (setup/Evner/Slagsbror Niv 3.tex) (setup/Evner/Speciale.tex
+[19]) (setup/Evner/Slagsbror Niv 3.tex) (setup/Evner/Speciale.tex
 Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
@@ -1488,9 +1496,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
 ) (setup/Evner/Urtesamler.tex)) (mainstuff/Drikke.tex
 
-[22]
+[20]
 
-[23]
+[21]
 LaTeX Font Info:    Trying to load font information for TS1+pplx on input line 8.
  (C:\Users\niels\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1pplx.fd
 File: ts1pplx.fd 2004/09/06 font definitions for TS1/pplx.
@@ -1521,14 +1529,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--25
 
 
 
-[24
+[22
 
 
 ]
 
-[25]
+[23]
 
-[26
+[24
 
 
 ]
@@ -1681,7 +1689,7 @@ Overfull \hbox (19.72469pt too wide) in alignment at lines 60--84
  [] [] [] [] [] 
  []
 
-[27
+[25
 
 
 ])
@@ -1690,28 +1698,41 @@ Overfull \hbox (19.72469pt too wide) in alignment at lines 60--84
 
 
 
-[28] 
+[26] 
 enddocument/afterlastpage (AED): lastpage setting LastPage.
 (main.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-07-11>
  ***********
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 93250D7DC728E95C932329D976E96F1D;6737.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  93250D7DC728E95C932329D976E96F1D;6737.
+
+Package lastpage Warning: Rerun to get the references right on input line 62.
+
  ) 
 Here is how much of TeX's memory you used:
- 33953 strings out of 468149
- 642303 string characters out of 5431082
- 1085891 words of memory out of 5000000
- 61735 multiletter control sequences out of 15000+600000
+ 33919 strings out of 468149
+ 641934 string characters out of 5431082
+ 1085935 words of memory out of 5000000
+ 61709 multiletter control sequences out of 15000+600000
  682411 words of font info for 134 fonts, out of 8000000 for 9000
  1146 hyphenation exceptions out of 8191
- 104i,17n,104p,908b,739s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 104i,17n,104p,908b,740s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/niels/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/niels/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/niels/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (29 pages, 4246949 bytes).
+Output written on main.pdf (27 pages, 4218593 bytes).
 PDF statistics:
- 403 PDF objects out of 1000 (max. 8388607)
- 60 named destinations out of 1000 (max. 500000)
- 426 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 190 PDF objects out of 1000 (max. 8388607)
+ 58 named destinations out of 1000 (max. 500000)
+ 18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
