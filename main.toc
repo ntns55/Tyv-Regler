@@ -26,30 +26,31 @@
 \contentsline {subsection}{Lejekontrakt}{17}{subsection*.23}%
 \contentsline {subsection}{Mesterbueskytte}{17}{subsection*.24}%
 \contentsline {subsection}{Snigmord Niv. 2}{17}{subsection*.25}%
-\contentsline {section}{Evne beskrivelse for Mestertyv}{18}{section*.26}%
-\contentsline {subsection}{Dirke låse Niv. 3}{18}{subsection*.27}%
-\contentsline {subsection}{Hurtige fingre}{18}{subsection*.28}%
-\contentsline {subsection}{Lange fingre}{18}{subsection*.29}%
-\contentsline {subsection}{Lommetyveri Niv. 3}{18}{subsection*.30}%
-\contentsline {subsection}{Stjæl Minde}{19}{subsection*.31}%
-\contentsline {chapter}{Generelle evner}{20}{chapter*.32}%
-\contentsline {section}{Evne beskrivelse}{20}{table.caption.33}%
-\contentsline {subsection}{6. sans Niv. 1}{20}{subsection*.34}%
-\contentsline {subsection}{6. sans Niv. 2}{21}{subsection*.35}%
-\contentsline {subsection}{Bonk}{21}{subsection*.36}%
-\contentsline {subsection}{Brug af pistol}{21}{subsection*.37}%
-\contentsline {subsection}{Bære person}{21}{subsection*.38}%
-\contentsline {subsection}{Kamp med tohåndsvåben}{22}{subsection*.39}%
-\contentsline {subsection}{Førstehjælp}{22}{subsection*.40}%
-\contentsline {subsection}{Læse og skrive}{22}{subsection*.41}%
-\contentsline {subsection}{Minearbejder}{22}{subsection*.42}%
-\contentsline {subsection}{Påfør gift}{22}{subsection*.43}%
-\contentsline {subsection}{Slagsbror Niv. 1}{23}{subsection*.44}%
-\contentsline {subsection}{Slagsbror Niv. 2}{23}{subsection*.45}%
+\contentsline {subsection}{Torturens snigende mord}{18}{subsection*.26}%
+\contentsline {section}{Evne beskrivelse for Mestertyv}{18}{section*.27}%
+\contentsline {subsection}{Dirke låse Niv. 3}{18}{subsection*.28}%
+\contentsline {subsection}{Hurtige fingre}{18}{subsection*.29}%
+\contentsline {subsection}{Lange fingre}{18}{subsection*.30}%
+\contentsline {subsection}{Lommetyveri Niv. 3}{18}{subsection*.31}%
+\contentsline {subsection}{Stjæl Minde}{19}{subsection*.32}%
+\contentsline {chapter}{Generelle evner}{20}{chapter*.33}%
+\contentsline {section}{Evne beskrivelse}{20}{table.caption.34}%
+\contentsline {subsection}{6. sans Niv. 1}{20}{subsection*.35}%
+\contentsline {subsection}{6. sans Niv. 2}{21}{subsection*.36}%
+\contentsline {subsection}{Bonk}{21}{subsection*.37}%
+\contentsline {subsection}{Brug af pistol}{21}{subsection*.38}%
+\contentsline {subsection}{Bære person}{21}{subsection*.39}%
+\contentsline {subsection}{Kamp med tohåndsvåben}{22}{subsection*.40}%
+\contentsline {subsection}{Førstehjælp}{22}{subsection*.41}%
+\contentsline {subsection}{Læse og skrive}{22}{subsection*.42}%
+\contentsline {subsection}{Minearbejder}{22}{subsection*.43}%
+\contentsline {subsection}{Påfør gift}{22}{subsection*.44}%
+\contentsline {subsection}{Slagsbror Niv. 1}{23}{subsection*.45}%
 \contentsline {subsection}{Slagsbror Niv. 2}{23}{subsection*.46}%
-\contentsline {subsection}{Speciale}{23}{subsection*.47}%
-\contentsline {subsection}{Urtesamler}{24}{subsection*.48}%
+\contentsline {subsection}{Slagsbror Niv. 2}{23}{subsection*.47}%
+\contentsline {subsection}{Speciale}{23}{subsection*.48}%
+\contentsline {subsection}{Urtesamler}{24}{subsection*.49}%
 \contentsline {chapter}{\numberline {5}Drikke}{25}{chapter.5}%
-\contentsline {section}{Hvordan man brygger}{25}{section*.49}%
+\contentsline {section}{Hvordan man brygger}{25}{section*.50}%
 \contentsline {chapter}{\numberline {6}Opskrifter}{27}{chapter.6}%
 \contentsline {chapter}{\numberline {7}Ingredienser}{28}{chapter.7}%
