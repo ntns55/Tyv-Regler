@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1758199255.84224 "c:/Users/NTNS/OneDrive - Telenor/Documents/GitHub/Tyv-Regler/main.tex" "main.pdf" "main" 1758199261.8819 0
+["pdflatex"] 1758277729.09942 "c:/Users/NTNS/OneDrive - Telenor/Documents/GitHub/Tyv-Regler/main.tex" "main.pdf" "main" 1758277733.85505 0
   "../Evne-Ordbog/Alkymi/AlkymiNiv1.tex" 1757919369 2220 ce29be2b12e085d1cbc28e2d44d73c14 ""
   "../Evne-Ordbog/Alkymi/AlkymiNiv2.tex" 1757919407 4455 fc2a6afc94015b1cea1c4b7944cb4f93 ""
   "../Evne-Ordbog/Drikke.tex" 1757924042 6477 81983a2b7f9565b2d05af019dedc3eb8 ""
@@ -291,14 +291,14 @@
   "C:/Users/NTNS/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-abspage.sty" 1750428951 2269 2de6c7a5fd634dfef00a960544463a38 ""
   "C:/Users/NTNS/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-base.sty" 1750428951 20785 198a9cb2e04238d92c320d0d9edbd76a ""
   "c:/Users/NTNS/OneDrive - Telenor/Documents/GitHub/Tyv-Regler/main.tex" 1758198842 1828 d7b1cc17fa388da51a176133242cd261 ""
-  "main.aux" 1758199261 7119 29095909fb340296e0f5709d37a5d011 "pdflatex"
-  "main.out" 1758199261 6807 6f3d71df957c02a07ed93dd1b18d48ce "pdflatex"
+  "main.aux" 1758277733 7327 03e77aeecbd7e8330292f608ab38e181 "pdflatex"
+  "main.out" 1758277733 7067 4038fc9bef07c5a8d9630d1eee24a030 "pdflatex"
   "main.tex" 1758198842 1828 d7b1cc17fa388da51a176133242cd261 ""
-  "main.toc" 1758199261 3285 f37e447872d7dec5db6120f52d40d79f "pdflatex"
+  "main.toc" 1758277733 3411 7576918701dbe18170fe0f9390fc0364 "pdflatex"
   "mainstuff/Indledning.tex" 1758198922 1057 87bbfab62b43abbeb5e9e8d40d94ff14 ""
-  "mainstuff/Niv1.tex" 1758198977 878 6eafafc0dbdcc2101268ae3e98419005 ""
-  "mainstuff/Niv2.tex" 1758199049 1042 40ce225908f2c36333880e69ad098f69 ""
-  "mainstuff/Niv3.tex" 1758199100 743 54af7783660f29438b2ff998648f32e0 ""
+  "mainstuff/Niv1.tex" 1758277388 969 02970bf9893b4ab8906565488dafe4dc ""
+  "mainstuff/Niv2.tex" 1758277563 1178 d21c4537a493cd6d3d0d541867441eb2 ""
+  "mainstuff/Niv3.tex" 1758277723 985 4408dd2189edb1b321f5caa218b1b483 ""
   "mainstuff/Niv4.tex" 1758199252 3404 4a9bb730146c9b980d0bb1624ea02a30 ""
   "setup/Pictures/A01.C01.01_Front_Billede.png" 1757332024 6403955 f084c9143d1fcc3045f3c66faf856f1d ""
   (generated)
