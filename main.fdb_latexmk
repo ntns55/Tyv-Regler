@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1758278500.11782 "c:/Users/NTNS/OneDrive - Telenor/Documents/GitHub/Tyv-Regler/main.tex" "main.pdf" "main" 1758278505.23501 0
+["pdflatex"] 1758632809.48686 "c:/Users/NTNS/OneDrive - Telenor/Documents/GitHub/Tyv-Regler/main.tex" "main.pdf" "main" 1758632813.97507 0
   "../Evne-Ordbog/Alkymi/AlkymiNiv1.tex" 1757919369 2220 ce29be2b12e085d1cbc28e2d44d73c14 ""
   "../Evne-Ordbog/Alkymi/AlkymiNiv2.tex" 1757919407 4455 fc2a6afc94015b1cea1c4b7944cb4f93 ""
   "../Evne-Ordbog/Drikke.tex" 1757924042 6477 81983a2b7f9565b2d05af019dedc3eb8 ""
@@ -291,15 +291,15 @@
   "C:/Users/NTNS/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-abspage.sty" 1750428951 2269 2de6c7a5fd634dfef00a960544463a38 ""
   "C:/Users/NTNS/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-base.sty" 1750428951 20785 198a9cb2e04238d92c320d0d9edbd76a ""
   "c:/Users/NTNS/OneDrive - Telenor/Documents/GitHub/Tyv-Regler/main.tex" 1758198842 1828 d7b1cc17fa388da51a176133242cd261 ""
-  "main.aux" 1758278504 7430 fe3d98b98b71c2c9db1af3f3672aef7c "pdflatex"
-  "main.out" 1758278504 7187 835be8899f3beb259ac5eb15c3edb1ce "pdflatex"
+  "main.aux" 1758632813 7519 009be27ef613246388860ccd99017387 "pdflatex"
+  "main.out" 1758632813 7198 480daca11cf96f263594fa2c1e0596be "pdflatex"
   "main.tex" 1758198842 1828 d7b1cc17fa388da51a176133242cd261 ""
-  "main.toc" 1758278504 3473 c69c7629853435631155a73f45c245ae "pdflatex"
-  "mainstuff/Indledning.tex" 1758198922 1057 87bbfab62b43abbeb5e9e8d40d94ff14 ""
+  "main.toc" 1758632813 3486 e939ef11b1c7fcd8035db4477d766229 "pdflatex"
+  "mainstuff/Indledning.tex" 1758632794 963 c3e069baf63a18e4e2e62240a5fa8a59 ""
   "mainstuff/Niv1.tex" 1758277388 969 02970bf9893b4ab8906565488dafe4dc ""
   "mainstuff/Niv2.tex" 1758277563 1178 d21c4537a493cd6d3d0d541867441eb2 ""
   "mainstuff/Niv3.tex" 1758277723 985 4408dd2189edb1b321f5caa218b1b483 ""
-  "mainstuff/Niv4.tex" 1758278496 3619 fd2282f07677011bf3b630938ecf89c4 ""
+  "mainstuff/Niv4.tex" 1758632812 3615 bab5f8a41bb02c3fc6135372cb940001 ""
   "setup/Pictures/A01.C01.01_Front_Billede.png" 1757332024 6403955 f084c9143d1fcc3045f3c66faf856f1d ""
   (generated)
   "main.aux"
