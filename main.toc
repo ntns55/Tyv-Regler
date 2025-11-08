@@ -29,24 +29,22 @@
 \contentsline {subsection}{Hurtige fingre}{13}{subsection*.24}%
 \contentsline {subsection}{Lange fingre}{13}{subsection*.25}%
 \contentsline {subsection}{Lommetyveri Niv. 3}{13}{subsection*.26}%
-\contentsline {chapter}{Generelle evner}{14}{chapter*.27}%
-\contentsline {section}{Evne beskrivelse}{14}{table.caption.28}%
-\contentsline {subsection}{6. sans Niv. 1}{14}{subsection*.29}%
-\contentsline {subsection}{6. sans Niv. 2}{15}{subsection*.30}%
-\contentsline {subsection}{Bonk}{15}{subsection*.31}%
-\contentsline {subsection}{Brug af pistol}{15}{subsection*.32}%
-\contentsline {subsection}{Bære person}{15}{subsection*.33}%
-\contentsline {subsection}{Kamp med tohåndsvåben}{16}{subsection*.34}%
-\contentsline {subsection}{Førstehjælp}{16}{subsection*.35}%
-\contentsline {subsection}{Læse og skrive}{16}{subsection*.36}%
-\contentsline {subsection}{Minearbejder}{16}{subsection*.37}%
-\contentsline {subsection}{Påfør gift}{16}{subsection*.38}%
-\contentsline {subsection}{Slagsbror Niv. 1}{17}{subsection*.39}%
-\contentsline {subsection}{Slagsbror Niv. 2}{17}{subsection*.40}%
-\contentsline {subsection}{Slagsbror Niv. 2}{17}{subsection*.41}%
-\contentsline {subsection}{Speciale}{17}{subsection*.42}%
-\contentsline {subsection}{Urtesamler}{18}{subsection*.43}%
-\contentsline {chapter}{\numberline {6}Drikke}{19}{chapter.6}%
-\contentsline {section}{Hvordan man brygger}{19}{section*.44}%
-\contentsline {chapter}{\numberline {7}Opskrifter}{21}{chapter.7}%
-\contentsline {chapter}{\numberline {8}Ingredienser}{22}{chapter.8}%
+\contentsline {chapter}{\numberline {6}Generelle evner}{14}{chapter.6}%
+\contentsline {section}{Evne beskrivelse}{14}{section*.28}%
+\contentsline {subsection}{6. sans}{14}{subsection*.29}%
+\contentsline {subsection}{Bonk}{15}{subsection*.30}%
+\contentsline {subsection}{Brug af pistol}{15}{subsection*.31}%
+\contentsline {subsection}{Bære person}{15}{subsection*.32}%
+\contentsline {subsection}{Førstehjælp}{15}{subsection*.33}%
+\contentsline {subsection}{Minearbejder}{16}{subsection*.34}%
+\contentsline {subsection}{Påfør gift}{16}{subsection*.35}%
+\contentsline {subsection}{Samler}{16}{subsection*.36}%
+\contentsline {subsection}{Slagsbror Niv. 1}{17}{subsection*.37}%
+\contentsline {subsection}{Slagsbror Niv. 2}{17}{subsection*.38}%
+\contentsline {subsection}{Slagsbror Niv. 3}{17}{subsection*.39}%
+\contentsline {subsection}{Speciale}{17}{subsection*.40}%
+\contentsline {subsection}{Urtesamler}{17}{subsection*.41}%
+\contentsline {chapter}{\numberline {7}Drikke}{19}{chapter.7}%
+\contentsline {section}{Hvordan man brygger}{19}{section*.42}%
+\contentsline {chapter}{\numberline {8}Opskrifter}{21}{chapter.8}%
+\contentsline {chapter}{\numberline {9}Ingredienser}{22}{chapter.9}%
