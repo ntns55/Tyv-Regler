@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.23)  8 NOV 2025 15:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.23)  23 NOV 2025 15:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -938,6 +938,8 @@ Package: ulem 2019/11/18
 \c@runerustning=\count397
 \c@runevåben=\count398
 \c@runeskjold=\count399
+\c@runering=\count400
+\c@runehjelm=\count401
  (C:\Users\niels\AppData\Local\Programs\MiKTeX\tex/latex/tablefootnote\tablefootnote.sty
 Package: tablefootnote 2014/01/26 v1.1c Table foot notes (HMM)
  (C:\Users\niels\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmacro.sty
@@ -947,55 +949,56 @@ Package: xifthen 2015/11/05 v1.4.0 Extended ifthen features
  (C:\Users\niels\AppData\Local\Programs\MiKTeX\tex/latex/ifmtarg\ifmtarg.sty
 Package: ifmtarg 2018/04/16 v1.2b check for an empty argument
 )))
-\c@meditation=\count400
-\c@rite=\count401
-\c@orleks arv=\count402
-\c@dHævn=\count403
-\c@ritual=\count404
-\c@åndens gave=\count405
-\c@nBeskyt=\count406
-\c@nly=\count407
-\c@nvit=\count408
-\c@mkær=\count409
-\c@nhævn=\count410
-\c@nkaos=\count411
-\c@nbesk=\count412
-\c@primærMagi=\count413
-\c@lærdMagi=\count414
-\c@arkBaneMagi=\count415
-\c@mesterMagi=\count416
-\c@lærmagi=\count417
-\c@sAritMagi=\count418
+\c@meditation=\count402
+\c@rite=\count403
+\c@orleks arv=\count404
+\c@dHævn=\count405
+\c@nVogt=\count406
+\c@ritual=\count407
+\c@åndens gave=\count408
+\c@nBeskyt=\count409
+\c@nly=\count410
+\c@nvit=\count411
+\c@mkær=\count412
+\c@nhævn=\count413
+\c@nkaos=\count414
+\c@nbesk=\count415
+\c@primærMagi=\count416
+\c@lærdMagi=\count417
+\c@arkBaneMagi=\count418
+\c@mesterMagi=\count419
+\c@lærmagi=\count420
+\c@sAritMagi=\count421
  (C:\Users\niels\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2024/12/21 v2.1c Standard LaTeX package
 )
-\c@race=\count419
-\c@sjæl=\count420
-\c@korruption=\count421
-\c@falden=\count422
-\c@vand=\count423
-\c@ild=\count424
-\c@jord=\count425
-\c@vind=\count426
-\c@passiv=\count427
-\c@offensiv=\count428
-\c@defensiv=\count429
-\c@kontrol=\count430
-\c@zombie=\count431
-\c@nSjæl=\count432
-\c@sygdom=\count433
-\c@død=\count434
+\c@race=\count422
+\c@sjæl=\count423
+\c@korruption=\count424
+\c@falden=\count425
+\c@vand=\count426
+\c@ild=\count427
+\c@jord=\count428
+\c@vind=\count429
+\c@passiv=\count430
+\c@offensiv=\count431
+\c@defensiv=\count432
+\c@kontrol=\count433
+\c@zombie=\count434
+\c@nSjæl=\count435
+\c@sygdom=\count436
+\c@død=\count437
 )
-\c@prof=\count435
+\c@prof=\count438
  (../Evne-Ordbog/setup/hyphenations.tex) (../Evne-Ordbog/setup/macros.tex
-\c@currexactr=\count436
-\c@endexactr=\count437
-\c@exa=\count438
+\c@currexactr=\count439
+\c@endexactr=\count440
+\c@exa=\count441
 ) (C:\Users\niels\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty
 Package: colortbl 2024/10/29 v1.0k Color table columns (DPC)
 \everycr=\toks76
 \minrowclearance=\skip164
-\rownum=\count439
+\rownum=\count442
 )
 
 Package array Warning: Redefining primitive column b on input line 9.
@@ -1011,11 +1014,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (C:\Users\niels\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count440
+\c@section@level=\count443
 )
 \@linkdim=\dimen337
-\Hy@linkcounter=\count441
-\Hy@pagecounter=\count442
+\Hy@linkcounter=\count444
+\Hy@pagecounter=\count445
  (C:\Users\niels\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2025-07-12 v7.01o Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
@@ -1023,7 +1026,7 @@ Now handling font encoding PD1 ...
 ) (C:\Users\niels\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count443
+\Hy@SavedSpaceFactor=\count446
  (C:\Users\niels\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
 File: puenc.def 2025-07-12 v7.01o Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
@@ -1036,7 +1039,7 @@ Package hyperref Info: Plain pages OFF on input line 4210.
 Package hyperref Info: Backreferencing OFF on input line 4215.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4462.
-\c@Hy@tempcnt=\count444
+\c@Hy@tempcnt=\count447
  (C:\Users\niels\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
@@ -1048,7 +1051,7 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
  (C:\Users\niels\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
-\Fld@menulength=\count445
+\Fld@menulength=\count448
 \Field@Width=\dimen339
 \Fld@charsize=\dimen340
 Package hyperref Info: Hyper figures OFF on input line 6078.
@@ -1058,16 +1061,16 @@ Package hyperref Info: backreferencing OFF on input line 6093.
 Package hyperref Info: Link coloring OFF on input line 6098.
 Package hyperref Info: Link coloring with OCG OFF on input line 6103.
 Package hyperref Info: PDF/A mode OFF on input line 6108.
-\Hy@abspage=\count446
-\c@Item=\count447
-\c@Hfootnote=\count448
+\Hy@abspage=\count449
+\c@Item=\count450
+\c@Hfootnote=\count451
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
  (C:\Users\niels\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
 File: hpdftex.def 2025-07-12 v7.01o Hyperref driver for pdfTeX
-\HyAnn@Count=\count449
-\Fld@listcount=\count450
-\c@bookmark@seq@number=\count451
+\HyAnn@Count=\count452
+\Fld@listcount=\count453
+\c@bookmark@seq@number=\count454
  (C:\Users\niels\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
 Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
  (C:\Users\niels\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
@@ -1117,16 +1120,16 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 31.
 LaTeX Font Info:    ... okay on input line 31.
  (C:\Users\niels\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count452
+\scratchcounter=\count455
 \scratchdimen=\dimen341
 \scratchbox=\box102
-\nofMPsegments=\count453
-\nofMParguments=\count454
+\nofMPsegments=\count456
+\nofMParguments=\count457
 \everyMPshowfont=\toks77
-\MPscratchCnt=\count455
+\MPscratchCnt=\count458
 \MPscratchDim=\dimen342
-\MPnumerator=\count456
-\makeMPintoPDFobject=\count457
+\MPnumerator=\count459
+\makeMPintoPDFobject=\count460
 \everyMPtoPDFconversion=\toks78
 ) (C:\Users\niels\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1134,7 +1137,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Users\niels\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-\c@lstlisting=\count458
+\c@lstlisting=\count461
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: hyperref package is loaded.
@@ -1285,7 +1288,7 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 7.29405pt on input line 2.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 5.21004pt on input line 2.
-) (../Evne-Ordbog/Lommetyveri/Lommetyveri Niv. 1.tex)
+) (../Evne-Ordbog/Lommetyveri/Lommetyveri Niv. 1.tex (../Evne-Ordbog/Lommetyveri/Lommetyveri Niv. 1Desc.tex))
 
 [5
 
@@ -1323,8 +1326,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--24
 
 [8]
 Kapitel 4.
-(../Evne-Ordbog/Påfør gift.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 2--17
+(../Evne-Ordbog/Påfør gift.tex (../Evne-Ordbog/Påfør giftDesc.tex))
+Underfull \hbox (badness 10000) in paragraph at lines 1--17
 
  []
 
@@ -1413,12 +1416,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 57--1
 
 [13]
 Kapitel 6.
-(../Evne-Ordbog/GenerelleEvner/Evner/6SansNiv1.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 2--30
+(../Evne-Ordbog/GenerelleEvner/Evner/6SansNiv1.tex (../Evne-Ordbog/GenerelleEvner/Evner/6SansNiv1Desc.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 1--3
 
  []
 
-(../Evne-Ordbog/GenerelleEvner/Evner/Bonk.tex (../Evne-Ordbog/GenerelleEvner/Evner/BonkDesc.tex))
+) (../Evne-Ordbog/GenerelleEvner/Evner/Bonk.tex (../Evne-Ordbog/GenerelleEvner/Evner/BonkDesc.tex))
 Underfull \hbox (badness 10000) in paragraph at lines 1--32
 
  []
@@ -1444,7 +1447,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--36
 LaTeX Font Info:    Trying to load font information for TS1+pplx on input line 4.
  (C:\Users\niels\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1pplx.fd
 File: ts1pplx.fd 2004/09/06 font definitions for TS1/pplx.
-))) (../Evne-Ordbog/GenerelleEvner/Evner/Påfør Gift.tex) (../Evne-Ordbog/GenerelleEvner/Evner/Samler.tex) (../Evne-Ordbog/GenerelleEvner/Evner/Slagsbror Niv 1.tex) (../Evne-Ordbog/GenerelleEvner/Evner/Slagsbror Niv 2.tex
+))) (../Evne-Ordbog/GenerelleEvner/Evner/Påfør Gift.tex (../Evne-Ordbog/GenerelleEvner/Evner/Påfør GiftDesc.tex)) (../Evne-Ordbog/GenerelleEvner/Evner/Samler.tex) (../Evne-Ordbog/GenerelleEvner/Evner/Slagsbror Niv 1.tex) (../Evne-Ordbog/GenerelleEvner/Evner/Slagsbror Niv 2.tex
 
 [16]) (../Evne-Ordbog/GenerelleEvner/Evner/Slagsbror Niv 3.tex) (../Evne-Ordbog/GenerelleEvner/Evner/Speciale.tex)
 Underfull \hbox (badness 10000) in paragraph at lines 3--52
@@ -1663,15 +1666,15 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: BA9252C2B6A7D4AF5A273D84A03C436A;6364.
  ) 
 Here is how much of TeX's memory you used:
- 37053 strings out of 468149
- 738844 string characters out of 5431082
- 1215934 words of memory out of 5000000
- 64745 multiletter control sequences out of 15000+600000
+ 37110 strings out of 468149
+ 740435 string characters out of 5431082
+ 1216848 words of memory out of 5000000
+ 64790 multiletter control sequences out of 15000+600000
  682411 words of font info for 134 fonts, out of 8000000 for 9000
  1146 hyphenation exceptions out of 8191
  121i,17n,124p,908b,737s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/niels/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/niels/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/niels/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (24 pages, 4248419 bytes).
+Output written on main.pdf (24 pages, 4247919 bytes).
 PDF statistics:
  443 PDF objects out of 1000 (max. 8388607)
  83 named destinations out of 1000 (max. 500000)
